@@ -67,9 +67,7 @@ Add regression diagnostics and statistical testing.
 Build the workflow in Python for automation and reproducibility.
 Create an automated ETL pipeline.
 Add forecasting for energy demand and emissions.
-
 Include more sustainability indicators.
-
 Deploy the solution in a cloud environment.
 
 
