@@ -53,6 +53,24 @@ Data storytelling and insight communication.
 
 This project demonstrates the ability to turn raw public datasets into a structured analytical solution that supports sustainability benchmarking and evidence-based decision-making.
 
+**Key Energy and Sustainability Insights
+
+Oil-rich economies remain highly carbon intensive. The top 6 per-capita emitters are all oil producers, and high-income oil economies such as Qatar, Bahrain, Kuwait, and Saudi Arabia emit about 555,152 tonnes of CO₂ per $1 billion GDP, around 2.3x more CO₂ per dollar of GDP than the average and about 1.8x less energy-efficient than non-oil countries.
+
+Renewable energy remains extremely low in some oil exporters. These countries average only 0.3% renewable energy share, which is about 100x lower than the global average of 30%, despite having strong solar potential.
+
+Qatar is an extreme outlier. Qatar emits about 620x more CO₂ per person than Burundi and roughly 12x the global average, reflecting LNG production, aluminum, cooling demand, and subsidized domestic energy.
+
+Norway shows a different path. Norway achieves more than 60% renewable domestic energy, mostly hydroelectric, while maintaining world-leading GDP per capita, and its per-capita emissions are about 3.7x lower than the average of the Gulf oil countries.
+
+Global emissions are highly concentrated. China, the US, and India account for 63.7% of global CO₂ emissions while producing 51% of global GDP and holding a large share of the world’s population.
+
+High-income countries dominate economic output. They generate about 64.4% of global GDP with only 17.4% of the population, while low-income countries hold 9.4% of the population but generate only 0.5% of GDP.
+
+Energy use rises sharply with income. A person in a high-income country consumes about 79x more energy than someone in a low-income country.
+
+Some countries show a sustainable growth path. Uruguay, Paraguay, Guatemala, and Brazil combine development with relatively high renewable shares, around 57.8%, 58.8%, 62.1%, and 46.5% respectively.
+
 **Challenges Solved**
 
 Inconsistent country naming across datasets.
