@@ -63,12 +63,19 @@ Unit standardization and data harmonization.
 **Repository Structure**
 
 Global-Energy-Consumption-Sustainability-Analysis/
+
 ├── README.md
+
 ├── Data/
+
 ├── SQL/
+
 ├── Excel Dashboard/
+
 ├── Power BI/
+
 ├── Images/
+
 └── Documentation/
 
 **Future Improvements**
