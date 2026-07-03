@@ -31,8 +31,6 @@ Designed KPI tracking, slicers, filters, and country-level comparisons.
 
 **Data Architecture **
 
-![Flow Diagram](Global-Energy-Consumption-Sustainability-Analysis/Images/Data_Flow_Diagram.png)
-
 ![Flow Diagram](Images/Data_Flow_Diagram.png)
 
 **Data Sources**
