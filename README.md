@@ -164,40 +164,52 @@ Designed and developed two executive dashboards comprising:
 
 **Repository Structure**
 
+```text
 Global-Energy-Consumption-Sustainability-Analysis/
 │
 ├── README.md
+├── LICENSE.md
 │
-├── data/
-│   ├── raw/
-│   ├── cleaned/
-│   └── data_dictionary.xlsx
+├── Data/
+│   ├── Data Dictionary.xlsx
+│   ├── EIA_Primary_Energy
+│   ├── Our_World_in_Data_CO2_Emissions
+│   ├── Our_World_In_Data_Renewable_Share_Energy
+│   ├── World_Bank_GDP
+│   ├── World_Bank_Land
+│   ├── World_Bank_Population
 │
-├── sql/
-│   ├── 01_create_tables.sql
-│   ├── 02_data_validation.sql
-│   ├── 03_create_views.sql
-│   ├── 04_business_analysis.sql
+├── SQL/
+│   ├── 01_Create_Database_and_Table.sql
+│   ├── 02_Data_Validation.sql
+│   ├── 03_Create_Views.sql
+│   ├── 04_Business_Analysis_Queries.sql
+│   ├── Data_Flow_Diagram.png
+│   └── SQL_Technical_Documentation.docx
 │
-├── excel/
-│   ├── dashboard.xlsx
-│   ├── dashboard.pdf
-│   └── documentation.xlsx
+├── Excel_Dashboard/
+│   ├── Global Energy Dashboard.xlsx
+│   ├── Dashboard.pdf
+│   └── Excel_Formula_Documentation.docx
 │
-├── powerbi/
-│   ├── dashboard.pbix
-│   ├── dashboard.pdf
-│   └── dax_documentation.docx
+├── Power_BI/
+│   ├── Global Energy Dashboard.pbix
+│   ├── BI_Dashboard.png
+│   ├── BI_Dashboard_Page_1.png
+│   ├── BI_Dashboard_Page_2.png
+│   └── Power_BI_DAX_Measures_Documentation.docx
 │
-├── images/
-│   ├── data_flow_diagram.png
-│   ├── bi_dashboard.png
-│   └── excel_dashboard.png
+├── Images/
+│   ├── BI_Dashboard.png
+│   ├── BI_Dashboard_Page_1.png
+│   ├── BI_Dashboard_Page_2.png
+│   ├── Data_Flow_Diagram.png
+│   ├── Excel_Dashboard.png
 │
-├── docs/
-│   ├── assignment_brief.pdf
-│   ├── architecture_diagram.pptx
-│
+├── Documentation/
+│   ├── Original_Academic_Assignment_Brief.pdf
+│   └── Project_Architecture_Diagram.pptx
+```
 
 
 **Future Improvements**
