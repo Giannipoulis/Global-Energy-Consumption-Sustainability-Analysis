@@ -31,7 +31,7 @@ Designed KPI tracking, slicers, filters, and country-level comparisons.
 
 **Data Architecture **
 
-![Flow Diagram](Images/Data_Flow_Diagram.png)
+![Flow Diagram](Global-Energy-Consumption-Sustainability-Analysis/Images/Data_Flow_Diagram.png)
 
 **Data Sources**
 7 datasets from 3 international public data sources 210+ countries 
