@@ -93,7 +93,8 @@ Designed and developed two executive dashboards comprising:
 
   **Excel Executive Dashboard**
 
-![Excel_Dashboard](Images/Excel_Dashboard.png)
+![Excel Dashboard](Global-Energy-Consumption-Sustainability-Analysis/Images/Excel_Dashboard.png)
+
 
 **Dashboard Highlights**
 
