@@ -48,10 +48,6 @@ Designed and developed two executive dashboards comprising:
   •	What-If scenario analysis 
   •	Executive summary panel
 
-  **Excel Executive Dashboard**
-
-![Excel Dashboard](Global-Energy-Consumption-Sustainability-Analysis/Images/Excel_Dashboard.png)
-
 
 ## Key Insights
 
@@ -60,6 +56,10 @@ Designed and developed two executive dashboards comprising:
 - Carbon intensity varies significantly between countries with similar economic output.
 - Renewable energy adoption is often linked to lower carbon intensity.
 - Energy mix and industrial structure matter more than GDP alone when explaining emissions.
+
+## Excel Executive Dashboard
+
+![Excel Dashboard](Global-Energy-Consumption-Sustainability-Analysis/Images/Excel_Dashboard.png)
 
 ## Global Energy and Sustainability Insights
 - Oil-rich economies remain highly carbon intensive. The top 6 per-capita emitters are all oil producers, and high-income oil economies such as Qatar, Bahrain, Kuwait, and Saudi Arabia emit about **555,152 tonnes of CO₂ per $1 billion GDP**, around **2.3x** more CO₂ per dollar of GDP than the global average, and about **1.8x** less energy-efficient than non-oil countries.
