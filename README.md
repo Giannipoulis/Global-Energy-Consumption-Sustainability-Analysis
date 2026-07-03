@@ -122,21 +122,21 @@ Designed and developed two executive dashboards comprising:
 
 **Key Energy and Sustainability Insights**
 
-**Wealth Comes with a Carbon Price**
+  **Wealth Comes with a Carbon Price**
 
-The top six oil-rich economies emit approximately 555,152 tonnes of CO₂ per US$1 billion of GDP—about 2.3× more CO₂ per dollar of GDP than the global average. Despite having some of the world's highest solar irradiance, their renewable energy share averages only 0.3%.
+  The top six oil-rich economies emit approximately 555,152 tonnes of CO₂ per US$1 billion of GDP—about 2.3× more CO₂ per dollar of GDP than the global average. Despite having some of the world's highest solar irradiance, their renewable energy share averages only 0.3%.
     
-**Norway Shows Another Way**
+  **Norway Shows Another Way**
 
-Norway, one of the world's highest-income countries by GDP per capita, generates more than 60% of its domestic energy from renewable sources, primarily hydropower, while maintaining per-capita CO₂ emissions about 3.7× lower than the average of the Gulf oil-producing countries.
+  Norway, one of the world's highest-income countries by GDP per capita, generates more than 60% of its domestic energy from renewable sources, primarily hydropower, while maintaining per-capita CO₂ emissions about 3.7× lower than the average of the Gulf oil-producing countries.
     
 **The Renewable Energy Paradox**
 
-High-income countries have an average GDP per capita 68× higher than low-income countries (US$50,553 vs. US$747). However, low-income countries have the highest average renewable energy share (over 80%), whereas the top five high-income countries have renewable energy shares below the global average of 30%.
+  High-income countries have an average GDP per capita 68× higher than low-income countries (US$50,553 vs. US$747). However, low-income countries have the highest average renewable energy share (over 80%), whereas the top five high-income countries have renewable energy shares below the global average of 30%.
     
-**Proof That Sustainable Growth Is Possible**
+  **Proof That Sustainable Growth Is Possible**
 
-Countries such as Uruguay, Paraguay, Guatemala, and Brazil demonstrate that economic development can coexist with low emissions and high renewable energy adoption, with renewable energy shares of 57.8%, 58.8%, 62.1%, and 46.5%, respectively.
+  Countries such as Uruguay, Paraguay, Guatemala, and Brazil demonstrate that economic development can coexist with low emissions and high renewable energy adoption, with renewable energy shares of 57.8%, 58.8%, 62.1%, and 46.5%, respectively.
 
 **Challenges Solved**
  
@@ -166,14 +166,19 @@ Countries such as Uruguay, Paraguay, Guatemala, and Brazil demonstrate that econ
 
 Global-Energy-Consumption-Sustainability-Analysis/
 │
-── README.md
+│── README.md
+│── LICENSE.md
 │
 ├── Data/
-│ ├── Raw Data/
-│ ├── Clean Data in Excel/
-│ └── Data Dictionary.xlsx
+│ ├── Data Dictionary.xlsx
+│ ├── EIA_Primary_Energy
+│ ├── Our_World_in_Data_CO2_Emissions
+│ ├── Our_World_In_Data_Renewable_Share_En ...
+│ ├── World_Bank_GDP
+│ ├── World_Bank_Land
+│ ├── World_Bank_Population
 │
-├── SQL/
+│── SQL/
 │ ├── 01_Create_Database_and_Table.sql
 │ ├── 02_Data_Validation.sql
 │ ├── 03_Create_Views.sql
@@ -188,14 +193,21 @@ Global-Energy-Consumption-Sustainability-Analysis/
 │
 ├── Power BI/
 │ ├── Global Energy Dashboard.pbix
-│ ├── Dashboard.pdf
+│ ├── BI__Dashboard.png
+│ ├── BI__Dashboard_Page_1.png
+│ ├── BI__Dashboard_Page_2.png
 │ └── Power_BI_DAX_Measures_Documentation.docx
 │
 ├── Images/
+│ ├── BI__Dashboard.png
+│ ├── BI__Dashboard_Page_1.png
+│ ├── BI__Dashboard_Page_2.png
+│ ├── Data_Flow_Diagram.png
+│ ├── Excel_Dashboard-png
 │
-└── Documentation/
-├── Original_Academic_Assignment_Brief.pdf
-└── Project_Architecture_Diagram.pptx
+├── Documentation/
+│ ├── Original_Academic_Assignment_Brief.pdf
+│ ├── Project_Architecture_Diagram.pptx
 
 
 **Future Improvements**
