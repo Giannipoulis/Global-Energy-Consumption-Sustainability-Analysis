@@ -30,7 +30,8 @@ Built 2 interactive dashboards in Excel and Power BI.
 Designed KPI tracking, slicers, filters, and country-level comparisons.
 
 **Data Architecture **
-![Flow_Diagram](images/Data_Flow_Diagram.png)
+
+![Flow_Diagram](Images/Data_Flow_Diagram.png)
 
 **Data Sources**
 7 datasets from 3 international public data sources 210+ countries 
@@ -92,7 +93,7 @@ Designed and developed two executive dashboards comprising:
 
   **Excel Executive Dashboard**
 
-![Excel_Dashboard](images/Excel_Dashboard.png)
+![Excel_Dashboard](Images/Excel_Dashboard.png)
 
 **Dashboard Highlights**
 
@@ -107,7 +108,7 @@ Designed and developed two executive dashboards comprising:
 
 **Interactive Power BI Dashboard**
 
-![BI_Dashboard](images/BI_Dashboard.png)
+![BI_Dashboard](Images/BI_Dashboard.png)
 
 **Power BI Dashboard Highlights**
 
