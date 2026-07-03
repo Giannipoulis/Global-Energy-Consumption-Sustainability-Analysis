@@ -109,7 +109,7 @@ Designed and developed two executive dashboards comprising:
 
 **Interactive Power BI Dashboard**
 
-![BI_Dashboard](Images/BI_Dashboard.png)
+![BI Dashboard](Global-Energy-Consumption-Sustainability-Analysis/Images/BI_Dashbaord.png)
 
 **Power BI Dashboard Highlights**
 
