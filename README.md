@@ -33,6 +33,8 @@ Designed KPI tracking, slicers, filters, and country-level comparisons.
 
 ![Flow_Diagram](Images/Data_Flow_Diagram.png)
 
+![Flow Diagram](Images/Data_Flow_Diagram.png)
+
 **Data Sources**
 7 datasets from 3 international public data sources 210+ countries 
 10+ economic and sustainability indicators 
