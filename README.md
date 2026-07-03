@@ -1,84 +1,41 @@
 # Global-Energy-Consumption-Sustainability-Analysis
 
-An end-to-end data analytics project exploring how economic, demographic, and sustainability factors relate to national energy consumption and carbon emissions across 210+ countries.
+An end-to-end data analytics project exploring how economic, demographic, and sustainability factors relate to national energy consumption and carbon emissions across **210+ countries**.
 
 **Tools**: Excel | SQL | Power Query | Power BI | MySQL | World Bank | Our World in Data | EIA
 
-**Project Summary**
+## Project Summary
 
-This project combines 7 public datasets from 3 international sources to build a unified analytical model of global energy and sustainability performance. 
+This project combines **7 public datasets** from **3 international sources** to build a unified analytical model of global energy and sustainability performance. 
 
 It includes data cleaning, database design, feature engineering, exploratory analysis, regression analysis, and dashboard development in Excel and Power BI.
 
-**Business Question**
+**Interactive Power BI Dashboard**
+
+![BI Dashboard](Global-Energy-Consumption-Sustainability-Analysis/Images/BI_Dashboard.png)
+
+## Business Question
 
 How well do GDP, population, and sustainability indicators explain differences in energy consumption and carbon emissions across countries?
 
 **What I Did**
 
-Collected and integrated data from World Bank, Our World in Data, and EIA.
-Cleaned and standardized country-level datasets.
-Built a MySQL database to structure and validate the data.
-Created 5 derived metrics to improve analysis:
-  Energy consumption per capita
-  CO₂ emissions per capita
-  Carbon intensity
-  Renewable energy share
-  Income group classification
-Performed exploratory analysis and regression modelling.
-Built 2 interactive dashboards in Excel and Power BI.
-Designed KPI tracking, slicers, filters, and country-level comparisons.
+- Collected and integrated data from World Bank, Our World in Data, and EIA.
+- Cleaned and standardized country-level datasets.
+- Built a MySQL database to structure and validate the data.
+- Created 5 derived metrics to improve analysis:
+  - Energy consumption per capita
+  - CO₂ emissions per capita
+  - Carbon intensity
+  - Renewable energy share
+  - Income group classification
+- Performed exploratory analysis and regression modelling.
+- Built 2 interactive dashboards in Excel and Power BI.
+- Designed KPI tracking, slicers, filters, and country-level comparisons.
 
 **Data Architecture **
 
 ![Flow Diagram](Global-Energy-Consumption-Sustainability-Analysis/Images/Data_Flow_Diagram.png)
-
-**Data Sources**
-7 datasets from 3 international public data sources 210+ countries 
-10+ economic and sustainability indicators 
-2021–2024 reporting period
-World Bank Open Data: GDP, Population, CO₂ Emissions, Renewable Energy & GNI Classification
-Our World in Data: CO₂ emissions
-U.S. Energy Information Administration (EIA): Rankings about energy in the World
-
-**Methodology**
-
- **1. Data Collection**
-  1.1	Data were collected from multiple publicly available sources to provide a comprehensive view of global economic, demographic and environmental indicators.
-  1.2	The datasets included:
-  1.3	World Bank Open Data 
-  1.4	Our World in Data 
-  1.5.	U.S. Energy Information Administration (EIA) 
-  1.6	These datasets were selected to combine economic, population, energy consumption and environmental sustainability indicators at the country level.
-
-**2. Data Preparation**
-Cleaned and integrated seven independent datasets, standardizing country names across 210+ observations, validating data integrity, resolving missing values and creating a unified analytical dataset. 
-
-**3. Database Development**
-The cleaned datasets were imported into a MySQL relational database.
-SQL was used to:
-    •	Store and organize the data 
-    •	Query and validate records 
-    •	Prepare datasets for downstream analysis 
-    •	Support reproducible data processing 
-
-**4. Feature Engineering**
-Developed five derived analytical metrics to extend the original assignment:
-  •	Energy Consumption per Capita 
-  •	CO₂ Emissions per Capita 
-  •	Carbon Intensity 
-  •	Renewable Energy Share 
-  •	Income Group Classification
-These variables provided additional context for exploring sustainability and energy consumption.
-
-**5. Exploratory Data Analysis**
-Scatter plots, descriptive statistics and regression analysis were used to investigate relationships between variables.
-The analysis explored:
-  •	GDP per capita vs. Energy Consumption 
-  •	Renewable Energy Share vs. CO₂ Emissions 
-  •	Differences between World Bank income groups 
-  •	Carbon intensity across countries 
-  Regression trendlines and R² values were used to assess the strength of the observed relationships.
 
 **Dashboard Development**
 
@@ -96,54 +53,41 @@ Designed and developed two executive dashboards comprising:
 ![Excel Dashboard](Global-Energy-Consumption-Sustainability-Analysis/Images/Excel_Dashboard.png)
 
 
-**Dashboard Highlights**
+## Key Insights
 
-  •	1 interactive executive dashboard 
-  •	4 KPI cards 
-  •	5 analytical visualisations 
-  •	1 dynamic country selector 
-  •	1 What-If analysis model 
-  •	210+ countries analysed 
-  •	Income group comparisons 
-  •	Regression trend analysis
+- GDP per capita is positively associated with energy consumption.
+- Population density alone has limited explanatory power.
+- Carbon intensity varies significantly between countries with similar economic output.
+- Renewable energy adoption is often linked to lower carbon intensity.
+- Energy mix and industrial structure matter more than GDP alone when explaining emissions.
 
-**Interactive Power BI Dashboard**
+## Global Energy and Sustainability Insights
+- Oil-rich economies remain highly carbon intensive. The top 6 per-capita emitters are all oil producers, and high-income oil economies such as Qatar, Bahrain, Kuwait, and Saudi Arabia emit about **555,152 tonnes of CO₂ per $1 billion GDP**, around **2.3x** more CO₂ per dollar of GDP than the global average, and about **1.8x** less energy-efficient than non-oil countries.
+- Renewable energy remains extremely low in some oil exporters. These countries average only **0.3% renewable energy share**, around **100x lower** than the global average of **30%**, despite strong solar potential.
+- Qatar is an extreme outlier. It emits about **620x more CO₂ per person than Burundi** and roughly **12x the global average**, reflecting LNG production, aluminum, cooling demand, and subsidized domestic energy.
+- Norway shows a different path. It achieves more than **60% renewable domestic energy**, mostly hydroelectric, while maintaining world-leading GDP per capita, and its per-capita emissions are about **3.7x lower** than the average of the Gulf oil countries.
+- Global emissions are highly concentrated. China, the US, and India account for **63.7% of global CO₂ emissions**.
+- High-income countries dominate economic output. They generate about **64.4% of global GDP** with only **17.4% of the population**, while low-income countries hold **9.4% of the population** but generate only **0.5% of GDP**.
+- Energy use rises sharply with income. A person in a high-income country consumes about **79x more energy** than someone in a low-income country.
+- Some countries show a sustainable growth path. Uruguay, Paraguay, Guatemala, and Brazil combine development with relatively high renewable shares, around **57.8%**, **58.8%**, **62.1%**, and **46.5%** respectively.
 
-![BI Dashboard](Global-Energy-Consumption-Sustainability-Analysis/Images/BI_Dashboard.png)
+## Business Recommendations
 
-**Power BI Dashboard Highlights**
+- Compare countries using carbon intensity rather than emissions alone.
+- Incorporate renewable energy share into sustainability benchmarking.
+- Include industrial structure when modelling future energy demand.
+- Expand future models using urbanisation and energy pricing variables.
 
-  •	1 interactive report page 
-  •	Dynamic slicers 
-  •	Cross-filtering 
-  •	DAX measures 
-  •	Interactive KPI reporting 
+## Impact
 
+This project demonstrates how combining economic and environmental indicators can produce richer insights than using GDP or population alone. It also shows the value of feature engineering, database design, and interactive dashboards in evidence-based decision-making.
 
-**Key Energy and Sustainability Insights**
-
-  **Wealth Comes with a Carbon Price**
-
-  The top six oil-rich economies emit approximately 555,152 tonnes of CO₂ per US$1 billion of GDP—about 2.3× more CO₂ per dollar of GDP than the global average. Despite having some of the world's highest solar irradiance, their renewable energy share averages only 0.3%.
-    
-  **Norway Shows Another Way**
-
-  Norway, one of the world's highest-income countries by GDP per capita, generates more than 60% of its domestic energy from renewable sources, primarily hydropower, while maintaining per-capita CO₂ emissions about 3.7× lower than the average of the Gulf oil-producing countries.
-    
-**The Renewable Energy Paradox**
-
-  High-income countries have an average GDP per capita 68× higher than low-income countries (US$50,553 vs. US$747). However, low-income countries have the highest average renewable energy share (over 80%), whereas the top five high-income countries have renewable energy shares below the global average of 30%.
-    
-  **Proof That Sustainable Growth Is Possible**
-
-  Countries such as Uruguay, Paraguay, Guatemala, and Brazil demonstrate that economic development can coexist with low emissions and high renewable energy adoption, with renewable energy shares of 57.8%, 58.8%, 62.1%, and 46.5%, respectively.
-
-**Challenges Solved**
+## Challenges Solved
  
-  Inconsistent country naming across datasets.
-  Missing values in developing-country records.
-  Different reporting years across sources.
-  Unit standardization and data harmonization.
+- Inconsistent country naming across datasets.
+- Missing values in developing-country records.
+- Different reporting years across sources.
+- Unit standardization and data harmonization.
 
 
 ## Skills Demonstrated
@@ -162,7 +106,7 @@ Designed and developed two executive dashboards comprising:
 | **Version Control** | Professional GitHub repository with reproducible project structure. |
 
 
-**Repository Structure**
+## Repository Structure
 
 ```text
 Global-Energy-Consumption-Sustainability-Analysis/
@@ -211,15 +155,13 @@ Global-Energy-Consumption-Sustainability-Analysis/
 │   └── Project_Architecture_Diagram.pptx
 ```
 
-
-**Future Improvements**
-
-  Add regression diagnostics and statistical testing.
-  Build the workflow in Python for automation and reproducibility.
-  Create an automated ETL pipeline.
-  Add forecasting for energy demand and emissions.
-  Include more sustainability indicators.
-  Deploy the solution in a cloud environment.
+## Future Improvements
+- Add regression diagnostics and statistical testing.
+- Build the workflow in Python for automation and reproducibility.
+- Create an automated ETL pipeline.
+- Add forecasting for energy demand and emissions.
+- Include more sustainability indicators.
+- Deploy the solution in a cloud environment.
 
   **Gianni-Ioannis Poulis**
 
