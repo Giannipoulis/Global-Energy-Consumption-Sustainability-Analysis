@@ -166,48 +166,38 @@ Designed and developed two executive dashboards comprising:
 
 Global-Energy-Consumption-Sustainability-Analysis/
 │
-│── README.md
-│── LICENSE.md
+├── README.md
 │
-├── Data/
-│ ├── Data Dictionary.xlsx
-│ ├── EIA_Primary_Energy
-│ ├── Our_World_in_Data_CO2_Emissions
-│ ├── Our_World_In_Data_Renewable_Share_En ...
-│ ├── World_Bank_GDP
-│ ├── World_Bank_Land
-│ ├── World_Bank_Population
+├── data/
+│   ├── raw/
+│   ├── cleaned/
+│   └── data_dictionary.xlsx
 │
-│── SQL/
-│ ├── 01_Create_Database_and_Table.sql
-│ ├── 02_Data_Validation.sql
-│ ├── 03_Create_Views.sql
-│ ├── 04_Business_Analysis_Queries.sql
-│ ├── Data_Flow_Diagram.png
-│ └── SQL_Technical_Documentation.docx
+├── sql/
+│   ├── 01_create_tables.sql
+│   ├── 02_data_validation.sql
+│   ├── 03_create_views.sql
+│   ├── 04_business_analysis.sql
 │
-├── Excel Dashboard/
-│ ├── Global Energy Dashboard.xlsx
-│ ├── Dashboard.pdf
-│ └── Excel_Formula_Documentation.docx
+├── excel/
+│   ├── dashboard.xlsx
+│   ├── dashboard.pdf
+│   └── documentation.xlsx
 │
-├── Power BI/
-│ ├── Global Energy Dashboard.pbix
-│ ├── BI__Dashboard.png
-│ ├── BI__Dashboard_Page_1.png
-│ ├── BI__Dashboard_Page_2.png
-│ └── Power_BI_DAX_Measures_Documentation.docx
+├── powerbi/
+│   ├── dashboard.pbix
+│   ├── dashboard.pdf
+│   └── dax_documentation.docx
 │
-├── Images/
-│ ├── BI__Dashboard.png
-│ ├── BI__Dashboard_Page_1.png
-│ ├── BI__Dashboard_Page_2.png
-│ ├── Data_Flow_Diagram.png
-│ ├── Excel_Dashboard-png
+├── images/
+│   ├── data_flow_diagram.png
+│   ├── bi_dashboard.png
+│   └── excel_dashboard.png
 │
-├── Documentation/
-│ ├── Original_Academic_Assignment_Brief.pdf
-│ ├── Project_Architecture_Diagram.pptx
+├── docs/
+│   ├── assignment_brief.pdf
+│   ├── architecture_diagram.pptx
+│
 
 
 **Future Improvements**
