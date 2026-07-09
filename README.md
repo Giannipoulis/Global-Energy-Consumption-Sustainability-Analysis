@@ -163,7 +163,14 @@ Global-Energy-Consumption-Sustainability-Analysis/
 - Include more sustainability indicators.
 - Deploy the solution in a cloud environment.
 
-  **Gianni-Ioannis Poulis**
+  ## About the Author
+
+**Gianni-Ioannis Poulis**
+
+Sustainable Development | Business Intelligence | Data Analytics | SQL | Power BI | Excel
+
+- **GitHub:** https://github.com/GianniPoulis
+- **LinkedIn:** https://www.linkedin.com/in/Gianni-Poulis
 
 Data Analyst | Operations Analyst | Sustainability Analyst
 
